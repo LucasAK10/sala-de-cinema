@@ -40,6 +40,7 @@ while True:
 
     if idade >= idade_minima:
         print(f'Ingresso liberado para {nome}.')
+        break 
 
     else:
         print(f'Entrada não permitida para {nome}. Escolha outro filme!')
